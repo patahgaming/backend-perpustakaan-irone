@@ -1,6 +1,5 @@
 const bukuModel = require('../model/bukuModel');
 
-
 const getAllBuku = (req, res) => {
     bukuModel.getAllBukuModel((err, results) => {
         if (err) {
